@@ -148,12 +148,12 @@ html,body{
     flex-direction: row;
     margin: 0 16px;
     margin-bottom: 16px;
-    line-height: 5vh;
+    line-height: 6vh;
 }
 
 .cb_btn{
     width: 100px;
-    height: 5vh;
+    height: 6vh;
     text-align: center;
     border: 1px solid  #a5a5a5;
     background: white;
@@ -225,4 +225,29 @@ html,body{
 
 .cb_flex{
     flex: 1;
+}
+
+.cb_text_medium{
+    color: #a5a5a5;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.8vh;
+    margin: 0 44px;
+}
+
+.cb_img {
+    width: 15vh;
+    height: 15vh;
+    background-color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 24px;
+}
+
+.cb_img1{
+    background-image: url('../img/img1.png');
+}
+
+.cb_img2{
+    background-image: url('../img/img2.png');
 }
