@@ -154,11 +154,16 @@ html,body{
 .cb_btn{
     width: 100px;
     height: 6vh;
+    line-height: 6vh;
     text-align: center;
     border: 1px solid  #a5a5a5;
     background: white;
     border-radius: 6px;
     margin: 8px;
+}
+
+.cb_btn.cb_full{
+    width: 80%;
 }
 
 .cb_btn.cb_accent{
