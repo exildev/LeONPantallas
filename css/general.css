@@ -264,3 +264,7 @@ html,body{
 .cb_img2{
     background-image: url('../img/img2.png');
 }
+
+.cb_texto_lifesstyle_5{
+    margin: 0 15px !important;
+}
