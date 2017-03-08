@@ -241,14 +241,6 @@ html,body{
     margin: 0 44px;
 }
 
-.cb_text_small{
-    color: #a5a5a5;
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.8vh;
-    margin: 0 44px;
-}
-
 .cb_img {
     width: 15vh;
     height: 15vh;
@@ -286,4 +278,8 @@ html,body{
 .cb_margin_contener_performance_cooper{
   margin-left: 25px;
   font-size:2.4vh;
+}
+.cb_margin_contener_performance_push{
+  margin-left: 25px;
+  font-size:2.5vh;
 }
