@@ -268,3 +268,8 @@ html,body{
 .cb_texto_lifesstyle_5{
     margin: 0 15px !important;
 }
+
+
+.cb_flex_vcenter{
+    align-items: center;
+}
