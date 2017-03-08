@@ -157,6 +157,7 @@ html,body{
     line-height: 6vh;
     text-align: center;
     border: 1px solid  #a5a5a5;
+    color: #A5A5A5;
     background: white;
     border-radius: 6px;
     margin: 8px;
@@ -271,4 +272,15 @@ html,body{
 
 .cb_adjust{
     width: 90%;
+}
+.cb_title_text_performance_cooper{
+  font-size:4vh;
+}
+.cb_title_button_performance_cooper{
+    width: 165px;
+}
+
+.cb_margin_contener_performance_cooper{
+  margin-left: 25px;
+  font-size:2.4vh;
 }
