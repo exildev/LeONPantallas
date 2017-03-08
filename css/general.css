@@ -262,6 +262,9 @@ html,body{
     margin: 0 15px !important;
 }
 
+.cb_adjust{
+    width: 90%;
+}
 .cb_title_text_performance_cooper{
   font-size:4vh;
 }
