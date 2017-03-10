@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/general.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/circle-progress.css">
+    <script src='./js/jquery-3.1.1.min.js'></script>
+    <script src='./js/circle-progress.min.js'></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+    <script type="text/javascript" src="./js/timer.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="cb_container">
+        <div class="cb_text cb_flex">
+            <p>Blood pressure will evaluate for potential cardiovascular risk before perfo</p>
+        </div>
+        <div class="cb_row">
+            <div class="cb_text b_flex_hcenter">
+                <span>left</span>
+                <div class="cb_btn cb_accent">100s</div>
+            </div>
+            <div class="cb_text">
+                <span>right</span>
+                <div class="cb_btn">100s</div>
+            </div>
+        </div>
+        <div class="cb_text cb_row">
+            <div id="timer" class="circle cb_colum center">
+                <strong></strong>
+            </div>
+        </div>
+        <div class="cb_progress_bar">
+    		<hr class="cb_all_steps">
+    		<hr class="cb_current_steps">
+    		<div class="cb_step cb_current" id="step1" data-step="1"><span>Start</span></div>
+    		<div class="cb_step" id="step2" data-step="2"></div>
+    		<div class="cb_step" id="step3" data-step="3"></div>
+    		<div class="cb_step" id="step4" data-step="4"></div>
+            <div class="cb_step" id="step5" data-step="5"></div>
+    		<div class="cb_step" id="step6" data-step="6"><span>Finish</span></div>
+    	</div>
+    </div>
+    <div id="cb_modalc"></div>
+</body>
+</html>
