@@ -415,3 +415,25 @@ input:checked+.cb_toggle .cb_toggle__handler {
     transform: translateX(46px);
 
 }
+
+.cb_row.cb_c .cb_btn:first-child {
+    border-radius: 6px 0 0 6px;
+    margin-right: 0;
+}
+
+.cb_row.cb_c{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.cb_row.cb_c .cb_btn{
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 0;
+    width: auto;
+    padding: 0 20px;
+}
+.cb_row.cb_c .cb_btn:last-child {
+    border-radius: 0 6px 6px 0;
+    margin-left: 0;
+}
