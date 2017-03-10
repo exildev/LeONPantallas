@@ -33,7 +33,7 @@ function cb_timer_clock_to(time){
 function cb_timer_start(){
     CB_INTERVAL = window.setInterval(function(){
         cb_timer_clock();
-    }, 1);
+    }, 1000);
 }
 
 function cb_timer_stop(){

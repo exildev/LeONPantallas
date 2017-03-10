@@ -437,3 +437,75 @@ input:checked+.cb_toggle .cb_toggle__handler {
     border-radius: 0 6px 6px 0;
     margin-left: 0;
 }
+
+.cb_btn_circular {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #b7b7b7;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    margin: 0 24px
+}
+
+.cb_btn.cb_lage {
+    border-radius: 50px;
+    width: 220px;
+}
+
+.cb_red{
+    background: red;
+    color: white;
+}
+
+.cb_list_user{
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.cb_list_user .cb_row {
+    border: 1px solid #b7b7b7;
+    border-radius: 10px;
+    padding: 8px 16px;
+    margin: 0 2px;
+    margin-bottom: 16px;
+    color: #ffa202;
+}
+
+.cb_user_img{
+    border: 1px solid #b7b7b7;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 16px;
+    background-color: lightgray;
+}
+
+.cb_user_points {
+    border: 1px solid #ffa202;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 12px;
+}
+
+.cb_add_plus {
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.cb_img_ejemplo{
+    background-image: url(../img/img1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

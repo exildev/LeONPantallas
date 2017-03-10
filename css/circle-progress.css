@@ -1,18 +1,18 @@
 
 
-.circle {
+.cb_circle {
   display: table;
-  
+
 }
 
-.circle canvas {
+.cb_circle canvas {
   vertical-align: top;
   position: absolute;
 }
 
 
 
-.circle strong {
+.cb_circle strong {
   width: 100%;
   font-size: 50px;
   display: table-cell;
@@ -20,18 +20,18 @@
   text-align: center;
 }
 
-.circle strong i {
+.cb_circle strong i {
   font-style: normal;
   font-size: 0.6em;
   font-weight: normal;
 }
 
-.circle span {
+.cb_circle span {
   display: block;
   color: #aaa;
   margin-top: 12px;
 }
 
-.center{
+.cb_center{
   margin: 11px auto;
 }
