@@ -260,7 +260,6 @@ html, body {
     text-align: center;
     font-weight: bold;
     font-size: 2.1vh;
-    margin: 0 44px;
 }
 
 .cb_img {
@@ -374,6 +373,13 @@ html, body {
     transition: all 200ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
 
+.cb_tm .cb_toggle:before{
+    content: "Week";
+}
+.cb_tm .cb_toggle:after{
+    content: "Month";
+}
+
 .cb_toggle:before {
     content: "Yes";
     left: 9px;
@@ -393,7 +399,7 @@ html, body {
     background: #fff;
     width: 34px;
     height: 34px;
-    border-radius: 50%;
+    border-radius: 50px;
     border: 3px solid #ffa202;
     -webkit-transition: all 200ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
     transition: all 200ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
@@ -508,4 +514,87 @@ input:checked+.cb_toggle .cb_toggle__handler {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.cb_calendar{
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.cb_calendar thead{
+    text-align: center;
+    font-size: 1.7vh;
+    color: #a5a5a5;
+}
+
+.cb_calendar tbody td.cb_nday {
+    color: #ddd;
+}
+
+.cb_calendar tbody td {
+    width: 7vh;
+    height: 7vh;
+    border: 1px #999 solid;
+    text-align: right;
+    font-size: 2vh;
+    color: #a5a5a5;
+    vertical-align: baseline;
+}
+
+.cb_calendar tbody td.cb_now{
+    color: #ffa202;
+}
+i.cb_info{
+    background-image: url(../img/2c_info.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0.3vh 0;
+}
+
+.cb_text i.cb_info{
+    width: 3.8vh;
+    height: 3.8vh;
+    line-height: 3.8vh;
+}
+
+.cb_text_small i.cb_info{
+    width: 2.1vh;
+    height: 2.1vh;
+    line-height: 2.1vh;
+}
+
+.cb_text_medium i.cb_info{
+    width: 2.5vh;
+    height: 2.5vh;
+    line-height: 2.5vh;
+}
+ .cb_calendar_contain{
+     background: white;
+ }
+
+ .cb_toggleWrapper.cb_tm {
+    transform: initial;
+}
+
+.cb_tm .cb_toggle {
+    width: 120px;
+}
+
+.cb_tm span.cb_toggle__handler {
+    width: 55px;
+}
+
+.cb_tm input:checked+.cb_toggle .cb_toggle__handler {
+    transform: translateX(60px);
+    width: 55px;
+}
+
+.cb_text_s{
+    margin: none;
+    margin-bottom: 8px;
+}
+
+.cb_n{
+    display: none;
 }
